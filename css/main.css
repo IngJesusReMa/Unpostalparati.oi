@@ -42,7 +42,7 @@ body {
   /* *** ESTA ES LA SECCIÓN CLAVE PARA EL TÍTULO EN MÓVILES *** */
   .titulo {
     font-size: 6vw; /* Ajusta el tamaño de la fuente para móviles (por ejemplo, 6% del ancho del viewport) */
-    margin-bottom: 80vh; /* <<-- AUMENTA ESTE VALOR para moverlo más ABAJO en la pantalla */
+    margin-bottom: 90vh; /* <<-- AUMENTA ESTE VALOR para moverlo más ABAJO en la pantalla */
     /* Empieza probando con 80vh. Si todavía está muy arriba, sube a 85vh, 90vh, etc.
        El 'vh' (viewport height) es porcentual a la altura de la pantalla, lo que es ideal para responsividad.
        También puedes probar con un valor en píxeles si prefieres, pero 'vh' es más flexible.
@@ -51,7 +51,7 @@ body {
        Si quieres que esté CERCA de la parte superior, necesitas un `margin-top` o un `top` junto con `position: absolute;`
        Si quieres que esté cerca del medio superior, usa un `margin-bottom` alto.
     */
-    letter-spacing: 3px; /* Reduce el espaciado entre letras para móviles */
+    letter-spacing: 2px; /* Reduce el espaciado entre letras para móviles */
     width: 90%; /* Asegura que el título no desborde en pantallas pequeñas */
   }
 }
